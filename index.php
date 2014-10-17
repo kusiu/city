@@ -122,8 +122,10 @@ class City {
 			
 		}
 
+		// Sort result by distance
 		asort($result);
 
+		// debug result
 		echo "<pre>";
 		print_r($result);
 		echo "<pre>";
